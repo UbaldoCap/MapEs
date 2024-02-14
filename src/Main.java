@@ -12,7 +12,7 @@ public class Main {
         registro.addStudente(studente3);
         registro.addStudente(studente4);
         registro.stampaStudenti();
-        System.out.println(registro.cercaStudenteMatricola(studente2.getMatricola()));
+        registro.cercaStudenteMatricola(studente2.getMatricola()).stampaDettagli();
         System.out.println(registro.numeroStudenti());
         System.out.println(registro.etaMedia());
         registro.ordinaStampaStudentiEta();
